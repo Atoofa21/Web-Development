@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h2>My Website</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grid-layout">
+    <section class="left-content">
+      <h3>Welcome!</h3>
+      <p>This is a responsive layout demo with Flexbox and CSS Grid.</p>
+      <img src="https://static.vecteezy.com/system/resources/previews/049/963/178/non_2x/educational-illustration-set-in-flat-cartoon-style-students-learning-in-class-or-at-home-books-laptops-and-study-elements-icons-school-supplies-collection-learning-and-academic-themes-vector.jpg" width = "600"  height = "500" 	alt="Placeholder Image" />
+
+    </section>
+
+    <section class="right-content">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <h2>My To-Do List</h2>
+        <input type="text" id="todoInput" placeholder="Add new task" />
+        <button onclick="addTodo()">Add Task</button>
+        <ul id="todoList"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
