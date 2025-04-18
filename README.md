@@ -1,2 +1,3 @@
-A Basic web page which includes a paragara, heading, header, image, link, adding  colors, fonts, spacing, and layout adjustments to the webpage. A button that triggers an alert message when clicked.
-A : Create a form with input types like text, email, and submit buttons; style it with CSS. Implement form validation that checks for required fields and correct email format.
+A Basic web page which includes a paragara, heading, header, image, link, adding  colors, fonts, spacing, and layout adjustments to the webpage. A button that triggers an alert message when clicked is seen in first.html,style.css and script.js
+A form with input types like text, email, and submit buttons; styled it with CSS. Implemention of form validation that checks for required fields and correct email format. Structured a webpage using Flexbox for navigation and CSS Grid for content areas, and applied a media queries for responsiveness. Created a to-do list where users can add and remove tasks dynamically is seen in index.html, styles1.css and script1.js
+
