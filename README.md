@@ -4,3 +4,5 @@ Creation of an image carousel that rotates images on user interaction is seen in
 Fetching Data from an public API (weather) and display the data dynamically on the webpage is seen in indexx.html, stylee.css,scriptt.js, Open Weather app: https://openweathermap.org/api, sing up for free, go to API keys (section) create key with a name copy the key and paste it in javascript file.
 A responsive portfolio is built using index4.html, styyle.css, scrippt.js.
 Creation of interactive interfaces that allow users to filter and sort data. A product page is build  where users can filter items by categories like price and name  and sort them based on criteria like rating using indexa.html, styless.css, scripthh.js.
+An E-commerce site is built using indexxe.html, sscript.html, stylle.css which consists of categories like clothing, accessories etc.
+Creation of a Blog website titled "Incredible India" consists of various tourism places in India is seen in "inddex.html","styley.css","scrript.js"
