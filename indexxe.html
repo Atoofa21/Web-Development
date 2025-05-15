@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple E-Commerce Site</title>
+  <link rel="stylesheet" href="stylle.css">
+</head>
+<body>
+  <header>
+    <h1>Shopcy</h1>
+    <input type="text" id="search" placeholder="Search products...">
+  </header>
+
+  <nav class="categories">
+    <button onclick="filterByCategory('all')">All</button>
+    <button onclick="filterByCategory('clothing')">Clothing</button>
+    <button onclick="filterByCategory('footwear')">Footwear</button>
+    <button onclick="filterByCategory('accessories')">Accessories</button>
+  </nav>
+
+  <main>
+    <section id="products" class="product-grid"></section>
+
+    <aside id="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <button id="checkout-btn">Checkout</button>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shopcy</p>
+  </footer>
+
+  <!-- Product Detail Modal -->
+  <div id="product-detail" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button" id="close-detail">&times;</span>
+      <img id="detail-image" src="" alt="Product Image">
+      <h2 id="detail-name"></h2>
+      <p id="detail-price"></p>
+      <p id="detail-description"></p>
+      <button id="detail-add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div id="checkout-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button" id="close-checkout">&times;</span>
+      <h2>Checkout</h2>
+      <p>Thank you for your purchase!</p>
+    </div>
+  </div>
+
+  <script src="sscript.js"></script>
+</body>
+</html>
